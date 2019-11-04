@@ -1,0 +1,163 @@
+<mjml>
+<mj-head>
+<mj-style>
+
+ @media only screen and (max-width:768px) {
+    .body-text {
+           
+             width: 85% !important;
+             color:green;
+          }
+
+      .header-text-2 {
+            display: block !important;
+            width: 100% !important;
+         
+          }
+
+       .copy-image {
+            
+             position: absolute !important;
+   top: -9999px !important;
+   left: -9999px !important;
+             
+          }
+
+       .button {
+             
+             float: none;
+         width: 100% !important;
+          }
+
+        .col-lft {
+            display: block !important;
+            width: 100% !important;
+        }
+        .col-rgt {
+            display: none !important;
+        }
+        .col1 {
+            width: 100% !important;
+            display: block !important;
+        }
+      }
+      @media only screen and (min-width:480px) {
+          .header-text-2 {
+            display: block !important;
+            width: 100% !important;
+         
+          }
+          .col-lft {
+            display: block !important;
+            width: 100% !important;
+        }
+        
+      }
+</mj-style>
+</mj-head>
+<mj-body background-color="#f1f1f1" width="728px">
+<!--logo-->
+<mj-section>
+</mj-section>
+
+
+<mj-section padding="20px" background-color="#fff">
+
+
+
+<mj-column> 
+<mj-image align="left" width="150px" src="http://www.emarketer.com/public_media/images/logo-eM-PRO.png"/>
+</mjcolumn>
+         
+      
+</mj-section>
+
+<!--text with cta-->
+<mj-section background-color="#fff" border-top="1px solid">
+<mj-column padding="0px 0px 0px 50px" background-color="#ffffff" css-class="col-lft">
+<mj-text font-weight="bold"
+          font-size="42px"
+          font-family="Arial"
+          color="#000000">The Global Media Intelligence Report 2018
+</mj-text>
+</mj-column>
+<!--cover image2-->
+<mj-column  padding="0px 50px 0px 0px" background-color="#ffffff" css-class="col-rgt">
+<mj-image width="200px"
+          src="https://on.emarketer.com/rs/867-SLG-901/images/global edited.png"/>
+
+</mj-column>
+</mj-section>
+<mj-section background-color="#fff">
+<mj-column>
+<mj-button css-class="button" padding="0px 0px 0px 50px" background-color="#F45E43" href="www.emarketer.com" align="left">
+Click Here
+</mj-button>
+</mj-column>
+</mj-section>
+
+
+<!--loren ipsum-->
+<mj-section background-color="#fff">
+<mj-column padding="0px 50px 20px 50px">
+<mj-text mj-class="body-text" letter-spacing="1px">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</mj-text>
+<mj-text mj-class="body-text" letter-spacing="1px">
+<p class="body-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</mj-text>
+</mj-column>
+
+
+</mj-section>
+
+
+<!--4 text block tiles-->
+<mj-section padding="20px 30px 30px 30px" background-color="#fff" border-top="1px solid">
+<!--tile1-->
+<mj-column css-class="col1">
+<mj-text>
+hello this is a little icon. this is a super little tile. its a little square. one square for four columns.
+</mj-text>
+<mj-image href="www.emarketer.com" target="_blank" src="http://www.emarketer.com/public_media/images/pro-view/ts-overview2.png"/>
+
+
+</mj-column>
+<!--tile2-->
+<mj-column css-class="col1">
+<mj-text>
+hello this is a little icon. this is a super little tile. its a little square. one square for four columns.
+
+</mj-text>
+<mj-image href="www.emarketer.com" target="_blank" src="http://www.emarketer.com/public_media/images/pro-view/ts-overview2.png"/>
+
+</mj-column>
+<!--tile3-->
+<mj-column css-class="col1">
+<mj-text>
+hello this is a little icon. this is a super little tile. its a little square. one square for four columns.
+</mj-text>
+<mj-image href="www.emarketer.com" target="_blank" src="http://www.emarketer.com/public_media/images/pro-view/ts-overview2.png"/>
+
+</mj-column>
+<!--tile4-->
+<mj-column css-class="col1">
+<mj-text>
+hello this is a little icon. this is a super little tile. its a little square. one square for four columns.
+</mj-text>
+<mj-image href="www.emarketer.com" target="_blank" src="http://www.emarketer.com/public_media/images/pro-view/ts-overview2.png"/>
+
+</mj-column>
+
+</mj-section>
+<mj-section>
+<mj-column>
+<mj-text align="center">
+©2019 eMarketer, 11 Times Square, New York, NY 10036 
+                            <br> 800-405-0844 
+</mj-text>
+</mj-column>
+
+</mj-section>
+</mj-body>
+</mjml>
